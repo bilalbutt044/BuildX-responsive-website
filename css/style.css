@@ -91,7 +91,6 @@
 /* topnav */
 .container {
   width: 80%;
-  max-height: 55px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -99,7 +98,7 @@
 }
 
 header {
-  max-height: 150px;
+  max-height: 155px;
 }
 
 .topnav {
@@ -107,7 +106,7 @@ header {
 }
 
 .left {
-  padding: 20px;
+  padding: 20px 0 16px 0;
 }
 .left a {
   text-decoration: none;
@@ -116,7 +115,7 @@ header {
 .right {
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0 16px 0;
 }
 .right .email span {
   display: inline-block;
@@ -126,7 +125,7 @@ header {
   line-height: 0.9;
 }
 .email {
-  margin-right: 40px;
+  margin-right: 45px;
 }
 
 .right .email img {
@@ -137,3 +136,37 @@ header {
 }
 
 /* Navbar */
+
+nav {
+  background: #ffffff;
+}
+
+.logo {
+  padding: 25px 0 25px 0;
+}
+
+.navbar {
+  padding: 50px 0 30px 0;
+  display: flex;
+}
+.navbar ul {
+  padding: 0;
+  margin: 0;
+}
+.navbar ul li {
+  list-style-type: none;
+  float: left;
+  padding: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+}
+
+a.active {
+  color: #fab702;
+}
+.search {
+  padding-left: 40px;
+}
