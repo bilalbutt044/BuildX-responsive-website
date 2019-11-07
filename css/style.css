@@ -200,3 +200,29 @@ a.active {
   padding: 25px 50px;
   border: none;
 }
+
+/* contact-us section */
+
+.contact-us {
+  background: #fab702;
+}
+.consult {
+  padding: 40px 0;
+  color: white;
+  font: 30px "Roboto", sans-serif;
+}
+.consult span {
+  font: italic 30px "Roboto", "sans-serif";
+  text-decoration: underline;
+  color: black;
+}
+.quote-btn {
+  padding: 30px 0;
+}
+.quote-btn button {
+  padding: 20px 40px;
+  color: #fab702;
+  font: 14px "Roboto";
+  border: none;
+  background: white;
+}
