@@ -6,7 +6,9 @@
 [class*="col-"] {
   width: 100%;
 }
-
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 @media only screen and (min-width: 600px) {
   /* For tablets: */
   .col-s-1 {
@@ -169,4 +171,32 @@ a.active {
 }
 .search {
   padding-left: 40px;
+}
+
+/* banner */
+.banner {
+  background: #a7a9fe;
+}
+
+.heading {
+  padding-top: 250px;
+  font-family: "Montserrat-black", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+}
+.description {
+  color: white;
+  padding-top: 35px;
+  padding-bottom: 40px;
+  line-height: 2;
+}
+
+.explore {
+  padding-bottom: 250px;
+}
+.explore button {
+  background: #fab702;
+  padding: 25px 50px;
+  border: none;
 }
