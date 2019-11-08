@@ -101,7 +101,10 @@ body {
   display: flex;
   justify-content: space-between;
 }
-
+.container-full {
+  width: 100%;
+  display: flex;
+}
 header {
   max-height: 155px;
 }
@@ -288,4 +291,31 @@ a.active {
   /* text-decoration: underline; */
   padding-bottom: 10px;
   border-bottom: #fab702 1px solid;
+}
+
+/* testimonial */
+
+.video {
+  width: 50%;
+}
+.testimonial-types {
+  background: #f8f8f8;
+  /* margin-left: 50px; */
+  padding: 120px 0;
+  width: 50%;
+}
+.testimonial-info {
+  display: flex;
+  padding-bottom: 50px;
+  width: 70%;
+  margin-left: 50px;
+}
+.testimonial-img {
+  padding: 20px 0 0 0;
+}
+.testimonial-content {
+  padding-left: 30px;
+}
+.testimonial-heading {
+  padding-bottom: 30px;
 }
