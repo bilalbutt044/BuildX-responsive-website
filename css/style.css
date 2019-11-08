@@ -319,3 +319,69 @@ a.active {
 .testimonial-heading {
   padding-bottom: 30px;
 }
+
+/* portfolio */
+
+.portfolio-info {
+  text-align: center;
+  padding: 120px 0 70px 0;
+}
+
+.portfolio-heading {
+  font: 44px bold "Montserrat-black", sans-serif;
+  padding-bottom: 40px;
+}
+.portfolio-description {
+  font: 14px "Roboto", sans-serif;
+  line-height: 2;
+  padding-bottom: 90px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio-nav {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-nav ul {
+  padding: 0px;
+  margin: 0;
+}
+.portfolio-nav li {
+  float: left;
+  padding-right: 20px;
+  list-style-type: none;
+}
+.portfolio-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.portfolio .container-full {
+  justify-content: space-between;
+}
+.portfolio-card-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px 40px 40px;
+}
+.portfolio-card {
+  width: 33%;
+  background: #fef6de;
+}
+.portfolio-card-heading {
+  font: bold "Roboto", sans-serif;
+  padding-top: 0;
+}
+.portfolio-card-img img {
+  width: 100%;
+}
+
+.portfolio-card-link a {
+  background: #fab702;
+  padding: 10px;
+  display: inline-block;
+}
+.portfolio-card-link a:last-child img {
+  width: 13px;
+}
