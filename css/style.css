@@ -92,6 +92,11 @@ body {
 .active {
   color: #fab702;
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 /* header */
 /* topnav */
 .container {
@@ -472,10 +477,222 @@ li.slick-active button {
   text-align: center;
   color: white;
 }
-.counter p:last-child {
-  font: 50px "Roboto", sans-serif;
+.counter h1:last-child {
+  font: bold 50px "Roboto", sans-serif;
 }
 .counter p:first-child {
   padding-bottom: 25px;
   font: 13px "Montserrat-black", sans-serif;
+}
+
+/* style-1 */
+.style-1 {
+  background: #f9f9f9;
+  padding: 100px 0;
+}
+.style-1-wrap {
+  display: flex;
+  justify-content: space-around;
+  padding: 45px 50px 30px 35px;
+  background: #ffffff;
+  width: 100%;
+  border-left: 2px solid #fab702;
+}
+.style-1-text h3 {
+  font: 20px "Roboto", sans-serif;
+}
+.style-1-text p {
+  font: 13px "Montserrat-black", sans-serif;
+}
+
+/* featured */
+.featured-news-heading {
+  text-align: center;
+  padding-top: 180px;
+}
+.featured-news-heading h1 {
+  font: bold 44px "Montserrat-Bold", sans-serif;
+  padding-bottom: 40px;
+}
+.featured-newss-description {
+  text-align: center;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 120px;
+}
+.featured-newss-description p {
+  font: 14px "Roboto", sans-serif;
+  line-height: 2;
+}
+
+.featured-news-card {
+  width: 30%;
+}
+.featured-news-card-img {
+  padding-bottom: 35px;
+}
+.featured-news-card-img img {
+  width: 315px;
+  height: 220px;
+}
+
+.featured-news-card-heading {
+  padding: 0 20px 20px 0;
+}
+.featured-news-card-heading h1 {
+  font: 22px Bold "Montserrat-black", sans-serif;
+}
+.featured-news-card-description {
+  font: 14px "Roboto", sans-serif;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+
+.featured-news-card-readmore {
+  padding-bottom: 125px;
+}
+.featured-news-card-readmore a {
+  font: underline 14px "Roboto", sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.featured-news-card-readmore a.active {
+  color: #fab702;
+  /* text-decoration: underline; */
+  padding-bottom: 10px;
+  border-bottom: #fab702 1px solid;
+}
+
+/* footer */
+
+.footer {
+  background: #252c3a;
+  padding: 80px 0 110px 0;
+  color: #ffffff;
+}
+.footer-link {
+  width: 24%;
+}
+.footer-heading h3 {
+  font: 14px "Roboto", sans-serif;
+}
+
+.footer-nav {
+  padding-top: 25px;
+}
+.footer-nav ul li {
+  list-style-type: none;
+  padding: 18px 0;
+  border-bottom: 1px solid #303744;
+  font: 13px "Roboto", sans-serif;
+}
+.footer-nav ul li i {
+  padding-right: 10px;
+}
+
+.footer-recent-news {
+  display: flex;
+  justify-content: space-between;
+  padding: 45px 0 12px 0;
+  border-bottom: 1px solid #303744;
+}
+.footer-recent-news:last-child {
+  padding-top: 12px;
+  border-top: none;
+  border-bottom: none;
+}
+.footer-recnet-news-text {
+  padding-left: 10px;
+  font: 13px "Roboto", sans-serif;
+  line-height: 1.5;
+}
+.footer-contact-info {
+  padding-top: 45px;
+}
+.footer-email {
+  display: flex;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #303744;
+}
+.footer-email p {
+  padding-left: 10px;
+}
+.footer-phone {
+  display: flex;
+  padding: 12px 0;
+  border-bottom: 1px solid #303744;
+}
+.footer-phone i {
+  padding-top: 10px;
+}
+.footer-phone-number {
+  padding-left: 15px;
+  line-height: 1.5;
+}
+.footer-address {
+  display: flex;
+  border-bottom: 1px solid #303744;
+  padding: 12px 0;
+}
+.footer-address p {
+  padding-left: 15px;
+}
+.footer-social-links {
+  padding-top: 12px;
+}
+.footer-social-links i {
+  padding-right: 20px;
+  color: white;
+}
+.footer-email-wrap {
+  padding-top: 45px;
+}
+.footer-email-text {
+  font: 13px "Roboto", sans-serif;
+  padding-bottom: 12px;
+  color: white;
+}
+.footer-email-form {
+  padding: 12px 0;
+}
+form {
+  display: flex;
+}
+form input[type="email"] {
+  padding: 15px 15% 15px 15px;
+  font: 13px "Roboto", sans-serif;
+}
+form input[type="submit"] {
+  padding: 15px;
+  background: #fab702;
+  border: none;
+  color: #ffffff;
+}
+.footer-privacy {
+  color: #919191;
+  font: 12px "Roboto", sans-serif;
+}
+/* footer bottom */
+.footer-nav-bottom {
+  background: #4c5b6d;
+}
+.footer-bottom-left,
+.footer-bottom-left a {
+  padding: 25px 0;
+  color: #d8deff;
+  text-decoration: none;
+}
+
+.footer-bootom-navbar {
+  padding: 25px 0;
+}
+.footer-bootom-navbar li {
+  list-style-type: none;
+  float: left;
+  padding-right: 20px;
+}
+.footer-bootom-navbar li a {
+  color: #d8deff;
+  text-decoration: none;
 }
