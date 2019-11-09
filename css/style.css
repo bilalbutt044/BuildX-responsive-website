@@ -433,10 +433,6 @@ a.active {
 li.slick-active button {
   background-color: #fab702;
 }
-/* .slick-dots li {
-  float: left;
-  list-style-type: none;
-} */
 .slider {
   width: 80%;
   margin-left: auto;
@@ -451,7 +447,6 @@ li.slick-active button {
   width: 10%;
 }
 .user-feedback {
-  /* width: 50%; */
   padding: 35px 30px 35px 20px;
 }
 .brand {
@@ -461,4 +456,26 @@ li.slick-active button {
 }
 .brand img {
   width: 20%;
+}
+
+/* COunter */
+#counter {
+  background: #fab702;
+}
+.counter-wrap {
+  padding: 70px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.counter {
+  /* width: 20%; */
+  text-align: center;
+  color: white;
+}
+.counter p:last-child {
+  font: 50px "Roboto", sans-serif;
+}
+.counter p:first-child {
+  padding-bottom: 25px;
+  font: 13px "Montserrat-black", sans-serif;
 }
