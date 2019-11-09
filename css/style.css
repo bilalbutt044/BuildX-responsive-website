@@ -385,3 +385,80 @@ a.active {
 .portfolio-card-link a:last-child img {
   width: 13px;
 }
+
+/* feedback */
+.feedback-text {
+  text-align: center;
+  padding: 120px 0;
+}
+.feedback-heading {
+  font: bold 44px "Montserrat-black", sans-serif;
+  padding-bottom: 40px;
+}
+.feedback-description {
+  line-height: 1.5;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.slick-initialized .slick-slide {
+  display: flex;
+}
+/* Styling the default Slick dots */
+
+.slick-dots {
+  display: flex !important;
+  justify-content: center;
+
+  margin: 0;
+  padding: 1rem 0;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+  list-style-type: none;
+}
+.slick-dots li button {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+
+  border: none;
+  border-radius: 100%;
+  background-color: #f1f1f1;
+
+  text-indent: -9999px;
+}
+li.slick-active button {
+  background-color: #fab702;
+}
+/* .slick-dots li {
+  float: left;
+  list-style-type: none;
+} */
+.slider {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slides {
+  display: flex;
+  background: #f9f9f9;
+}
+.customer-img {
+  width: 10%;
+}
+.user-feedback {
+  /* width: 50%; */
+  padding: 35px 30px 35px 20px;
+}
+.brand {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px 0;
+}
+.brand img {
+  width: 20%;
+}
