@@ -9,85 +9,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {
-    width: 8.33%;
-  }
-  .col-s-2 {
-    width: 16.66%;
-  }
-  .col-s-3 {
-    width: 25%;
-  }
-  .col-s-4 {
-    width: 33.33%;
-  }
-  .col-s-5 {
-    width: 41.66%;
-  }
-  .col-s-6 {
-    width: 50%;
-  }
-  .col-s-7 {
-    width: 58.33%;
-  }
-  .col-s-8 {
-    width: 66.66%;
-  }
-  .col-s-9 {
-    width: 75%;
-  }
-  .col-s-10 {
-    width: 83.33%;
-  }
-  .col-s-11 {
-    width: 91.66%;
-  }
-  .col-s-12 {
-    width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {
-    width: 8.33%;
-  }
-  .col-2 {
-    width: 16.66%;
-  }
-  .col-3 {
-    width: 25%;
-  }
-  .col-4 {
-    width: 33.33%;
-  }
-  .col-5 {
-    width: 41.66%;
-  }
-  .col-6 {
-    width: 50%;
-  }
-  .col-7 {
-    width: 58.33%;
-  }
-  .col-8 {
-    width: 66.66%;
-  }
-  .col-9 {
-    width: 75%;
-  }
-  .col-10 {
-    width: 83.33%;
-  }
-  .col-11 {
-    width: 91.66%;
-  }
-  .col-12 {
-    width: 100%;
-  }
-}
 
 .active {
   color: #fab702;
@@ -267,8 +188,8 @@ a.active {
   padding-bottom: 35px;
 }
 .service-card-img img {
-  width: 315px;
-  height: 220px;
+  width: 100%;
+  height: auto;
 }
 
 .service-card-heading {
@@ -333,7 +254,7 @@ a.active {
 }
 
 .portfolio-heading {
-  font: 44px bold "Montserrat-black", sans-serif;
+  font: bold 44px "Montserrat-black", sans-serif;
   padding-bottom: 40px;
 }
 .portfolio-description {
@@ -533,8 +454,8 @@ li.slick-active button {
   padding-bottom: 35px;
 }
 .featured-news-card-img img {
-  width: 315px;
-  height: 220px;
+  width: 100%;
+  height: auto;
 }
 
 .featured-news-card-heading {
@@ -695,4 +616,329 @@ form input[type="submit"] {
 .footer-bootom-navbar li a {
   color: #d8deff;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 1207px) {
+  /* For desktop: */
+  .consult {
+    padding: 30px 0;
+    font: 20px "Roboto", sans-serif;
+  }
+  .quote-btn button {
+    padding: 15px 30px;
+  }
+  .portfolio-card-heading {
+    font: bold 15px "Roboto", sans-serif;
+  }
+  .portfolio-card-link a {
+    padding: 5px;
+  }
+}
+@media only screen and (max-width: 970px) {
+  /* For tablets: */
+  .heading {
+    padding-top: 150px;
+    font-size: 50px;
+  }
+  .description {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 1.7;
+  }
+  .explore {
+    padding-bottom: 150px;
+  }
+  .explore button {
+    padding: 20px 30px;
+  }
+  .service-heading {
+    padding-top: 100px;
+  }
+  .service-heading h1 {
+    padding-bottom: 30px;
+  }
+  .services-description {
+    padding-bottom: 40px;
+  }
+  .service-card-heading {
+    padding-bottom: 20px;
+  }
+  .service-card-description {
+    padding-bottom: 30px;
+  }
+  .service-card-readmore {
+    padding-bottom: 100px;
+  }
+  .testimonial-types {
+    padding: 80px 0;
+  }
+  .testimonial-info {
+    padding-bottom: 20px;
+    margin-left: 40px;
+  }
+  .testimonial-img {
+    padding: 5px 0 0 0;
+  }
+  .testimonial-img img {
+    width: 60px;
+    height: 70px;
+  }
+  .testimonial-heading {
+    padding-bottom: 5px;
+    font-size: 14px;
+  }
+  .testimonial-description p {
+    font-size: 14px;
+  }
+  .portfolio-info {
+    padding: 70px 0 70px 0;
+  }
+  .portfolio-heading {
+    /* width: 50%; */
+    font: bold 44px "Montserrat-black", sans-serif;
+    padding-bottom: 20px;
+  }
+  .portfolio-description {
+    padding-bottom: 50px;
+    width: 70%;
+  }
+  .portfolio-card-footer {
+    padding: 25px 10px 25px 20px;
+  }
+
+  .portfolio-card-heading {
+    width: 50%;
+    font: bold 13px "Roboto", sans-serif;
+  }
+  .feedback-text {
+    padding: 80px 0;
+  }
+  .feedback-heading {
+    font: bold 40px "Montserrat-black", sans-serif;
+    padding-bottom: 20px;
+  }
+  .brand {
+    padding: 80px 0;
+  }
+  .featured-news-heading {
+    padding-top: 100px;
+  }
+  .featured-newss-description {
+    padding-bottom: 100px;
+  }
+  .featured-news-card-readmore {
+    padding-bottom: 100px;
+  }
+  form input[type="email"] {
+    padding: 15px;
+  }
+  form input[type="submit"] {
+    padding: 10px;
+  }
+
+  form input[type="email"] {
+    padding: 0 5px 0 5px;
+  }
+  form input[type="submit"] {
+    padding: 8px;
+    height: 35px;
+  }
+  .footer-contact-info {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .left {
+    text-align: center;
+  }
+  .right {
+    display: block;
+  }
+  .email {
+    display: flex;
+    margin-right: 0;
+    margin-bottom: 10px;
+    justify-content: center;
+  }
+  .phonenumber {
+    display: flex;
+    justify-content: center;
+  }
+  .heading {
+    padding-top: 100px;
+    font-size: 25px;
+  }
+  .description {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+  }
+  .explore {
+    padding-bottom: 100px;
+  }
+  .consult {
+    padding: 26px 0 15px 0;
+    font: 14px "Roboto", sans-serif;
+  }
+  .consult span {
+    font: italic 16px "Roboto", "sans-serif";
+  }
+  .quote-btn {
+    padding: 20px 0;
+  }
+  .quote-btn button {
+    padding: 10px 15px;
+  }
+  .service-heading {
+    padding-top: 50px;
+  }
+  .service-heading h1 {
+    padding-bottom: 10px;
+  }
+  .services-description {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .sm-container {
+    display: block !important;
+  }
+  .service-card {
+    width: 100%;
+  }
+  .service-card-img {
+    padding-bottom: 30px;
+  }
+  .service-card-heading {
+    padding-bottom: 10px;
+  }
+  .service-card-description {
+    padding-bottom: 20px;
+    line-height: 1.7;
+  }
+  .service-card-readmore {
+    padding-bottom: 50px;
+  }
+  .video {
+    width: 100%;
+    max-height: 400px;
+    height: 400px;
+  }
+  .testimonial-types {
+    width: 100%;
+  }
+  .testimonial-info {
+    width: 80%;
+  }
+  .portfolio-heading {
+    font: bold 20px "Montserrat-black", sans-serif;
+    padding-bottom: 10px;
+  }
+  .portfolio-description {
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .portfolio-card {
+    width: 100%;
+  }
+  .feedback-heading {
+    font: bold 20px "Montserrat-black", sans-serif;
+    padding-bottom: 10px;
+  }
+  .feedback-description {
+    line-height: 1.5;
+    width: 100%;
+  }
+  .counter-wrap {
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  .counter p:first-child {
+    padding-bottom: 10px;
+    font: 13px "Montserrat-black", sans-serif;
+  }
+  .style-1 {
+    padding: 30px 0;
+  }
+  .style-1-text h3 {
+    font: bold 14px "Roboto", sans-serif;
+  }
+  .style-1-btn button {
+    background: #fab702;
+    border: none;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 13px;
+  }
+  .style-1-text {
+    padding-bottom: 10px;
+  }
+  .featured-news-heading {
+    padding-top: 50px;
+  }
+
+  .featured-news-heading h1 {
+    font: bold 18px "Montserrat-Bold", sans-serif;
+    padding-bottom: 10px;
+  }
+  .featured-newss-description {
+    padding-bottom: 50px;
+    width: 100%;
+  }
+  .featured-news-card {
+    width: 100%;
+  }
+  .featured-news-card-img {
+    padding-bottom: 30px;
+  }
+  .featured-news-card-heading {
+    padding: 0 0px 5px 0;
+  }
+  .featured-news-card-description {
+    font: 14px "Roboto", sans-serif;
+    line-height: 1.5;
+    padding-bottom: 10px;
+  }
+  .featured-news-card-readmore {
+    padding-bottom: 50px;
+  }
+  .footer {
+    padding: 40px 0;
+  }
+  .footer-link {
+    width: 100%;
+  }
+  .footer-heading {
+    padding-top: 35px;
+  }
+  .footer-recent-news {
+    display: flex;
+    justify-content: left;
+    padding: 30px 0 12px 0;
+  }
+  .footer-bottom-left {
+    text-align: center;
+  }
+  .footer-bootom-navbar {
+    text-align: center;
+  }
+  .footer-bootom-navbar li {
+    list-style-type: none;
+    float: none;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .brand {
+    display: block;
+  }
+  .brand-logo {
+    width: 100% !important;
+  }
+  .style-1-wrap {
+    display: block;
+  }
+  .quote-btn {
+    padding: 0px 0 20px 0;
+  }
 }
